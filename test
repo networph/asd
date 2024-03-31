@@ -674,7 +674,9 @@ function library:InitNotifications(text, duration, callback)
     return Notification
 end
 
-
+function library:Introduction()
+    introduction:Destroy()
+end
 
 function library:Init(key)
     for _,v in next, CoreGuiService:GetChildren() do
