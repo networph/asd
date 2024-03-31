@@ -477,7 +477,7 @@ do
             if window.currentContent.dropdown and window.currentContent.dropdown.open then
                 local dropdown = window.currentContent.dropdown
                 dropdown.open = not dropdown.open
-                utility:LoadImage(dropdown.dropdown_image, "arrow_down", "https://i.imgur.com/tVqy0nL.png")
+                utility:LoadImage(dropdown.dropdown_image, "arrow_down")
                 --
                 for i,v in pairs(dropdown.holder.drawings) do
                     utility:Remove(v)
@@ -492,7 +492,7 @@ do
             elseif window.currentContent.multibox and window.currentContent.multibox.open then
                 local multibox = window.currentContent.multibox
                 multibox.open = not multibox.open
-                utility:LoadImage(multibox.multibox_image, "arrow_down", "https://i.imgur.com/tVqy0nL.png")
+                utility:LoadImage(multibox.multibox_image, "arrow_down")
                 --
                 for i,v in pairs(multibox.holder.drawings) do
                     utility:Remove(v)
