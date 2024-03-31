@@ -11,17 +11,17 @@ getgenv().ESP = {
             BoxFillColor = Color3.fromRGB(100, 75, 175),
         },
         HealthBar = {
-            Enabled = true,
+            Enabled = false,
             Number = true,
             HighHealthColor = Color3.fromRGB(0, 255, 0),
             LowHealthColor = Color3.fromRGB(255, 0, 0),
         },
         Tool = {
-            Enabled = true,
+            Enabled = false,
             Color = Color3.fromRGB(255, 255, 255),
         },
         Distance = {
-            Enabled = true,
+            Enabled = false,
             Color = Color3.fromRGB(255, 255, 255),
         },
         Chams = false,
@@ -29,7 +29,7 @@ getgenv().ESP = {
         Type = "AlwaysOnTop", --// "AlwaysOnTop", "Occluded"
     },
     Checks = {
-        WallCheck = true,
+        WallCheck = false,
         VisibleCheck = true,
         ForceField = true,
         AliveCheck = true,
